@@ -1,0 +1,34 @@
+{
+  "Description": "Jokes from the inner webs",
+  "Credit": "https://gist.github.com/neelusb/559916bf7ff7091a20c818e86534f4cc",
+  "Jokes": [
+    {
+      "question": "What happens to a frog's car when it breaks down?",
+      "answer": "It gets toad away."
+    },
+    {
+      "question": "What did the duck say when he bought lipstick?",
+      "answer": "Put it on my bill!"
+    },
+    {
+      "question": "My friend thinks he is smart. He told me an onion is the only food that makes you cry",
+      "answer": "so I threw a coconut at his face."
+    },
+    {
+      "question": "A recent worldwide survey showed that out of 2,146,703,436 people",
+      "answer": "94% were too lazy to actually read that number."
+    },
+    {
+      "question": "Did you hear about the kidnapping at school?",
+      "answer": "It's okay, he woke up."
+    },
+    {
+      "question": "Can a kangaroo jump higher than the Empire State Building?",
+      "answer": "Of course. The Empire State Building can't jump!"
+    },
+    {
+      "question": "Why does Humpty Dumpty love autumn?",
+      "answer": "Because Humpty Dumpty had a great fall!"
+    }
+  ]
+}
