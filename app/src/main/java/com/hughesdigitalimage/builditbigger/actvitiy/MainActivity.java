@@ -9,8 +9,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.Joke;
 import com.hughesdigitalimage.builditbigger.R;
 import com.hughesdigitalimage.builditbigger.actvitiy.consants.IntentConsents;
+import com.udacity.gradle.builditbigger.library.activity.JokeTellerActivity;
 
 import java.lang.ref.WeakReference;
 
