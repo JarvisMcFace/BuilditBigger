@@ -1,4 +1,4 @@
-package com.hughesdigitalimage.builditbigger;
+package com.jarvismcface.builditbigger;
 
 import org.junit.Test;
 

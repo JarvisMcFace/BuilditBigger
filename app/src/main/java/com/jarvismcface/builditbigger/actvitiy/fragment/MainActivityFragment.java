@@ -1,4 +1,4 @@
-package com.hughesdigitalimage.builditbigger.actvitiy.fragment;
+package com.jarvismcface.builditbigger.actvitiy.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

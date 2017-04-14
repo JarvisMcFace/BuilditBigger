@@ -1,4 +1,4 @@
-package com.hughesdigitalimage.builditbigger.actvitiy;
+package com.jarvismcface.builditbigger.actvitiy;
 
 
 import android.content.Context;

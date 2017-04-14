@@ -1,4 +1,4 @@
-package com.hughesdigitalimage.builditbigger;
+package com.jarvismcface.builditbigger;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

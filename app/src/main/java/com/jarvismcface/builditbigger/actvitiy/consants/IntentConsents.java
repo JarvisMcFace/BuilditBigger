@@ -1,4 +1,4 @@
-package com.hughesdigitalimage.builditbigger.actvitiy.consants;
+package com.jarvismcface.builditbigger.actvitiy.consants;
 
 /**
  * Created by David on 3/24/17.
