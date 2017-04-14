@@ -9,13 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.Joke;
 import com.jarvismcface.builditbigger.R;
 import com.jarvismcface.builditbigger.actvitiy.consants.IntentConsents;
+import com.udacity.gradle.builditbigger.backend.myApi.model.Joke;
 import com.udacity.gradle.builditbigger.library.activity.JokeTellerActivity;
 
 import java.lang.ref.WeakReference;
-
 
 public class MainActivity extends AppCompatActivity implements EndpointsAsyncTask.Callback {
 
