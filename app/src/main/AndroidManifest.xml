@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.udacity.gradle.builditbigger.library.activity.JokeTellerActivityokeTellerActivity"
+            android:name="com.udacity.gradle.builditbigger.library.activity.JokeTellerActivity"
             android:label="Joke Teller" />
 
         <!-- Include the AdActivity configChanges and theme. -->

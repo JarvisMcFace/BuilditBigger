@@ -1,7 +1,6 @@
 package com.jarvismcface.builditbigger.actvitiy;
 
 
-import android.content.Context;
 import android.os.AsyncTask;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -27,7 +26,7 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, Joke> {
 
     private WeakReference<Callback> weakCallback;
     private static MyApi myApiService = null;
-    private Context context;
+
 
     public EndpointsAsyncTask(WeakReference<Callback> weakCallback) {
         this.weakCallback = weakCallback;
