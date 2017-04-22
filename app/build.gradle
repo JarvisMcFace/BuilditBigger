@@ -19,7 +19,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
     productFlavors {
+        free {
+            applicationId "com.jarvismcface.builditbigger.free"
+        }
+        paid {
+            applicationId "com.jarvismcface.builditbigger.paid"
+        }
     }
 }
 
@@ -29,9 +36,9 @@ dependencies {
 
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile project(path: ':joketeller')
-    compile project(path: ':jokemachine')
+
     compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'com.google.android.gms:play-services-ads:9.8.0'
+    freeCompile 'com.google.android.gms:play-services-ads:9.8.0'
 
     compile('com.google.api-client:google-api-client-android:1.22.0') {
         exclude module: 'httpclient'
