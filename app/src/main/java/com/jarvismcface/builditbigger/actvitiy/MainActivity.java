@@ -11,7 +11,7 @@ import android.view.View;
 
 import com.jarvismcface.builditbigger.R;
 import com.jarvismcface.builditbigger.actvitiy.consants.IntentConsents;
-import com.udacity.gradle.builditbigger.backend.myApi.model.Joke;
+import com.udacity.gradle.builditbigger.backend.tellJokeApi.model.Joke;
 import com.udacity.gradle.builditbigger.library.activity.JokeTellerActivity;
 
 import java.lang.ref.WeakReference;

@@ -7,8 +7,8 @@ import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
-import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
-import com.udacity.gradle.builditbigger.backend.myApi.model.Joke;
+import com.udacity.gradle.builditbigger.backend.tellJokeApi.TellJokeApi;
+import com.udacity.gradle.builditbigger.backend.tellJokeApi.model.Joke;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -25,7 +25,7 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, Joke> {
     }
 
     private WeakReference<Callback> weakCallback;
-    private static MyApi myApiService = null;
+    private static TellJokeApi myApiService = null;
 
 
     public EndpointsAsyncTask(WeakReference<Callback> weakCallback) {
@@ -36,7 +36,7 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, Joke> {
     protected Joke doInBackground(Void... params) {
 
         if (myApiService == null) {  // Only do this once
-            MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
+            TellJokeApi.Builder builder = new TellJokeApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
                     // options for running against local devappserver
                     // - 10.0.2.2 is localhost's IP address in Android emulator
