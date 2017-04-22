@@ -46,7 +46,7 @@ public class EndpointsAsyncTaskTest extends TestCase implements EndpointsAsyncTa
 
         signal.await(5, TimeUnit.SECONDS);// wait for callback
         assertNotNull(result);
-        assertTrue(result.size() > 0);
+        assertTrue(result.size() == 2);
 
     }
 
