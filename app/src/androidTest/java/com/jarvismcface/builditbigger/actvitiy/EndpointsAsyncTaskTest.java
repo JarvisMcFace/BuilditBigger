@@ -4,7 +4,7 @@ import android.support.test.annotation.UiThreadTest;
 import android.support.test.filters.SmallTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.udacity.gradle.builditbigger.backend.myApi.model.Joke;
+import com.udacity.gradle.builditbigger.backend.tellJokeApi.model.Joke;
 
 import junit.framework.TestCase;
 
